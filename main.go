@@ -36,9 +36,9 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	sentryv1alpha1 "github.com/jace-ys/sentry-operator/api/v1alpha1"
-	"github.com/jace-ys/sentry-operator/controllers"
-	"github.com/jace-ys/sentry-operator/pkg/sentry"
+	sentryv1alpha1 "github.com/yrosaguiar/sentry-operator/api/v1alpha1"
+	"github.com/yrosaguiar/sentry-operator/controllers"
+	"github.com/yrosaguiar/sentry-operator/pkg/sentry"
 	// +kubebuilder:scaffold:imports
 )
 

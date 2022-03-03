@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/jace-ys/sentry-operator/pkg/sentry"
+	"github.com/yrosaguiar/sentry-operator/pkg/sentry"
 )
 
 var _ = Describe("ProjectsService", func() {

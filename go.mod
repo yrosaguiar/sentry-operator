@@ -1,4 +1,4 @@
-module github.com/jace-ys/sentry-operator
+module github.com/yrosaguiar/sentry-operator
 
 go 1.13
 

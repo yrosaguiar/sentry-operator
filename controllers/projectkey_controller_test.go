@@ -14,9 +14,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	sentryv1alpha1 "github.com/jace-ys/sentry-operator/api/v1alpha1"
-	"github.com/jace-ys/sentry-operator/controllers"
-	"github.com/jace-ys/sentry-operator/pkg/sentry"
+	sentryv1alpha1 "github.com/yrosaguiar/sentry-operator/api/v1alpha1"
+	"github.com/yrosaguiar/sentry-operator/controllers"
+	"github.com/yrosaguiar/sentry-operator/pkg/sentry"
 )
 
 var _ = Describe("ProjectKeyReconciler", func() {

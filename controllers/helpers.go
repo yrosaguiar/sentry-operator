@@ -1,6 +1,6 @@
 package controllers
 
-import "github.com/jace-ys/sentry-operator/pkg/sentry"
+import "github.com/yrosaguiar/sentry-operator/pkg/sentry"
 
 type Sentry struct {
 	Organization string

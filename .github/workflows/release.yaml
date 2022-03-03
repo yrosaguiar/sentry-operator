@@ -42,7 +42,7 @@ jobs:
             1. Apply the Kubernetes manifests for installing the operator:
 
             ```shell
-            kubectl apply -f https://github.com/jace-ys/sentry-operator/releases/download/${{ steps.context.outputs.tag }}/release.yaml
+            kubectl apply -f https://github.com/yrosaguiar/sentry-operator/releases/download/${{ steps.context.outputs.tag }}/release.yaml
             ```
 
             2. Create a Kubernetes Secret as described in [Configuration](docs/installing.md#Configuration).

@@ -43,8 +43,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/predicate"
 
-	sentryv1alpha1 "github.com/jace-ys/sentry-operator/api/v1alpha1"
-	"github.com/jace-ys/sentry-operator/pkg/sentry"
+	sentryv1alpha1 "github.com/yrosaguiar/sentry-operator/api/v1alpha1"
+	"github.com/yrosaguiar/sentry-operator/pkg/sentry"
 )
 
 const (

@@ -10,9 +10,9 @@ When contributing, please start by searching through the issues and pull request
 
 If you have any questions, encountered any bugs, or would like to propose any features, please create an issue in this repository using the following issue templates:
 
-- [I would like to ask a question](https://github.com/jace-ys/sentry-operator/issues/new?assignees=&labels=&template=question.md&title=).
-- [I would like to report a bug](https://github.com/jace-ys/sentry-operator/issues/new?assignees=&labels=&template=bug_report.md&title=).
-- [I would like to propose a feature](https://github.com/jace-ys/sentry-operator/issues/new?assignees=&labels=&template=feature_request.md&title=).
+- [I would like to ask a question](https://github.com/yrosaguiar/sentry-operator/issues/new?assignees=&labels=&template=question.md&title=).
+- [I would like to report a bug](https://github.com/yrosaguiar/sentry-operator/issues/new?assignees=&labels=&template=bug_report.md&title=).
+- [I would like to propose a feature](https://github.com/yrosaguiar/sentry-operator/issues/new?assignees=&labels=&template=feature_request.md&title=).
 
 ## Pull Requests
 

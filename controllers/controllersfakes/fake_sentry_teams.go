@@ -4,8 +4,8 @@ package controllersfakes
 import (
 	"sync"
 
-	"github.com/jace-ys/sentry-operator/controllers"
-	"github.com/jace-ys/sentry-operator/pkg/sentry"
+	"github.com/yrosaguiar/sentry-operator/controllers"
+	"github.com/yrosaguiar/sentry-operator/pkg/sentry"
 )
 
 type FakeSentryTeams struct {
