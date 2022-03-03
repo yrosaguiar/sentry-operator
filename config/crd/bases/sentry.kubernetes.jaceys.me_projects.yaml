@@ -60,6 +60,12 @@ spec:
               maxLength: 50
               minLength: 1
               type: string
+            platform:
+              description: Platform of the Sentry team that this project should be created
+                under.
+              maxLength: 50
+              minLength: 1
+              type: string
           required:
           - name
           - slug

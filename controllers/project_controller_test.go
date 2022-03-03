@@ -46,6 +46,7 @@ var _ = Describe("ProjectReconciler", func() {
 			Team: "test-team",
 			Name: "test-project",
 			Slug: "test-project",
+			Platform: "test-golang",
 		},
 	}
 
@@ -83,6 +84,7 @@ var _ = Describe("ProjectReconciler", func() {
 				Team: "test-team",
 				Name: "test-project",
 				Slug: "test-project",
+				Platform: "test-golang",
 			}))
 
 			By("with the expected finalizer")
@@ -140,6 +142,7 @@ var _ = Describe("ProjectReconciler", func() {
 				Team: "test-team",
 				Name: "test-project-update",
 				Slug: "test-project-update",
+				Platform: "test-golang-update",
 			}))
 
 			By("with the expected finalizer")
@@ -190,6 +193,7 @@ var _ = Describe("ProjectReconciler", func() {
 					Team: "test-team",
 					Name: "test-project-error",
 					Slug: "test-project-error",
+					Platform: "test-golang-error",
 				}))
 
 				By("with the expected finalizer")
@@ -240,6 +244,7 @@ var _ = Describe("ProjectReconciler", func() {
 					Team: "test-team",
 					Name: "test-project-update",
 					Slug: "test-project-update",
+					Platform: "test-golang-update",
 				}))
 
 				By("with the expected finalizer")

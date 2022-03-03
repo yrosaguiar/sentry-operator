@@ -46,6 +46,11 @@ type ProjectSpec struct {
 	// +kubebuilder:validation:MaxLength=50
 	// Slug of the Sentry project.
 	Slug string `json:"slug"`
+
+	// +kubebuilder:validation:MinLength=1
+	// +kubebuilder:validation:MaxLength=50
+	// Platform of the Sentry project.
+	Platform string `json:"platform"`
 }
 
 // +kubebuilder:validation:Enum=Created;Error

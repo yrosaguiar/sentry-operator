@@ -20,6 +20,12 @@ A `Project` supports the following fields in its spec:
 
   It is generally recommended to use the same value as the project's name, as Sentry has some quirky behaviour about handling the uniqueness of slugs.
 
+- `platform` (optional)
+
+  Platform of the Sentry project.
+
+  It is the language used in project.
+
 ## Examples
 
 #### Basic `Project`
@@ -33,4 +39,5 @@ spec:
   team: foo
   name: bar
   slug: bar
+  platform: golang
 ```
